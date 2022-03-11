@@ -34,4 +34,4 @@ opportunity to give it a try. It's pretty awesome, and I can't wait to use it ag
 
 ## Example
 
-![Alt text](example.gif) / ![](example.gif)
+![Alt text](example.gif)
