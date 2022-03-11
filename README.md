@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Sensible Weather
+![sensibleWeatherLogo](https://uploads-ssl.webflow.com/61157ac101d834275cc2aa9f/617c53621b7d2385ef8134ae_sensible.png)
+## Full Stack Web Engineering take home exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+Uses [Google’s “Nearby Search” API](https://developers.google.com/maps/documentation/places/web-service/search-nearby)
+to allow a user to select from a list of locations and enter any keyword.
 
-In the project directory, you can run:
+## Setup
 
-### `npm start`
+* Create `.env` file at the root of the project, and add your Google Places Auth Token with the key `REACT_APP_PLACES_API_KEY`.
+<br/>
+i.e. `REACT_APP_PLACES_API_KEY=<YOUR API KEY>`
+* Run `npm install` at the root of the project.
+* Run `npm start` to start using the app locally.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Testing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Run `npm run cypress` to open the Cypress Component Test Runner.
 
-### `npm test`
+## Notes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Thanks for taking the time to look at my mini project!
+<br/>
 
-### `npm run build`
+In order to get up and running quick I bootstrapped the project with [Create React App](https://github.com/facebook/create-react-app).
+I chose not to use a lot of dependencies in an effort not over-engineer. I did pull in [Google Maps JavaScript API Loader](https://github.com/googlemaps/js-api-loader)
+in order to load the JavaScript API dynamically.
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the description for the role it lists Cypress as a qualification. I have never used Cypress before, so I took the 
+opportunity to give it a try. It's pretty awesome, and I can't wait to use it again in the future.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Alt text](example.gif) / ![](example.gif)
