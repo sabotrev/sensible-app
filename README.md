@@ -10,7 +10,6 @@ to allow a user to select from a list of locations and enter any keyword.
 ## Setup
 
 * Create `.env` file at the root of the project, and add your Google Places Auth Token with the key `REACT_APP_PLACES_API_KEY`.
-<br/>
 i.e. `REACT_APP_PLACES_API_KEY=<YOUR API KEY>`
 * Run `npm install` at the root of the project.
 * Run `npm start` to start using the app locally.
